@@ -4,11 +4,6 @@
 
 **货币反假 868 题 · 单文件离线刷题应用**
 
-[![Single file](https://img.shields.io/badge/single--file-526%20KB-0B3B6F?style=flat-square)](#)
-[![Offline](https://img.shields.io/badge/offline-100%25-177A4C?style=flat-square)](#)
-[![Questions](https://img.shields.io/badge/questions-868-C9A227?style=flat-square)](#)
-[![Dependencies](https://img.shields.io/badge/dependencies-0-66707F?style=flat-square)](#)
-
 面向银行柜面、清分、金库等现金从业人员的反假货币刷题工具。
 
 [功能](#功能) · [截图](#截图) · [快速开始](#快速开始) · [从源码构建](#从源码构建)

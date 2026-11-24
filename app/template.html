@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light" data-font="m">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>反假通 · 货币反假刷题</title>
+<meta name="description" content="货币反假 868 题 · 离线刷题 · 模拟考试 · 错题本">
+<meta name="theme-color" content="#0B3B6F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="反假通">
+<link rel="apple-touch-icon" href="__ICON_URI__">
+<link rel="icon" href="__ICON_URI__">
+<link rel="manifest" href="__MANIFEST_URI__">
+<script>
+try{
+  var s=JSON.parse(localStorage.getItem('fj.v1')||'{}');
+  var t=(s.settings||{}).theme||'system';
+  var d=t==='dark'||(t!=='light'&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches);
+  document.documentElement.dataset.theme=d?'dark':'light';
+  if((s.settings||{}).font==='l')document.documentElement.dataset.font='l';
+}catch(e){}
+</script>
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div id="view"></div>
+<nav id="tabbar" class="tabbar" aria-label="主导航"></nav>
+<div id="overlay" class="overlay"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script>window.__ASSETS__={icon:"__ICON_URI__",mascot:"__MASCOT_URI__",great:"__GREAT_URI__",ok:"__OK_URI__",bad:"__BAD_URI__",empty:"__EMPTY_URI__"};</script>
+<script id="bank" type="application/json">__BANK_JSON__</script>
+<script>/*__JS__*/</script>
+</body>
+</html>

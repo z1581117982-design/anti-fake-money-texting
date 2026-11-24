@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Build output (the repo root 反假通.html is committed)
+app/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
